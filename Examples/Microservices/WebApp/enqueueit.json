@@ -1,0 +1,31 @@
+{
+  "StorageConfig": "localhost:6379,allowAdmin=true",
+  "StorageType": "Redis",
+  "LongTermStorageConfig": "Server=localhost;Database=EnqueueItDb;User ID=sa;Password=P@ssw0rd;",
+  "LongTermStorageType": "SqlServer",
+  "EnableDeleteAll": true,
+  "EnableStopServers": true,
+  "Applications": [
+    {
+      "Name": "microservice1",
+      "BaseDirectory": "/home/ahmed/github/enqueueit/Examples/Microservices/go-microservice1"
+    },
+    {
+      "Name": "microservice2",
+      "BaseDirectory": "/home/ahmed/github/enqueueit/Examples/Microservices/go-microservice2"
+    }
+  ],
+  "Servers": [
+    {
+      "WorkersCount": 50,
+      "Queues": [
+        {
+          "Name": "jobs",
+          "WorkersCount": 50,
+          "Retries": 0,
+          "RetryDelay": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "StorageConfig": "localhost:6379",
+  "StorageType": "Redis"
+}

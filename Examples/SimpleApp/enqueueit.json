@@ -1,0 +1,19 @@
+{
+  "StorageConfig": "localhost:6379",
+  "StorageType": "Redis",
+  "LongTermStorageConfig": "Server=localhost;Database=JobsDb;User ID=sa;Password=P@ssw0rd;",
+  "LongTermStorageType": "SqlServer",
+  "Servers": [
+    {
+      "WorkersCount": 50,
+      "Queues": [
+        {
+          "Name": "jobs",
+          "WorkersCount": 50,
+          "Retries": 0,
+          "RetryDelay": 5
+        }
+      ]
+    }
+  ]
+}
