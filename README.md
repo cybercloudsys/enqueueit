@@ -22,7 +22,7 @@ EnqueueIt is available for both .NET and Go. You can find the respective package
 - [.NET Packages](https://github.com/cybercloudsys/enqueueit-dotnet)
 - [Go Package](https://github.com/cybercloudsys/enqueueit-go)
 
-As of version 0.3.0, the .NET packages support all EnqueueIt functionality, including the web dashboard and background jobs, which are exclusively available in the .NET package. The Go package was created as a lightweight alternative for running the EnqueueIt server, enabling the execution of microservices and seamless data synchronization between Redis and SQL databases. Additionally, the Go package supports the enqueueing and scheduling of microservices from Go, as well as the feature of reading microservice arguments.
+As of version 0.3.1, the .NET packages support all EnqueueIt functionality, including the web dashboard and background jobs, which are exclusively available in the .NET package. The Go package was created as a lightweight alternative for running the EnqueueIt server, enabling the execution of microservices and seamless data synchronization between Redis and SQL databases. Additionally, the Go package supports the enqueueing and scheduling of microservices from Go, as well as the feature of reading microservice arguments.
 
 ## Links
 

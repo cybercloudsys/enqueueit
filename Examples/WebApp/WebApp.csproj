@@ -6,8 +6,8 @@
     <Authors>Ahmed Abudaqqa</Authors>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="EnqueueIt.Dashboard" Version="0.3.0" />
-    <PackageReference Include="EnqueueIt.Redis" Version="0.3.0" />
-    <PackageReference Include="EnqueueIt.SqlServer" Version="0.3.0" />
+    <PackageReference Include="EnqueueIt.Dashboard" Version="0.3.1" />
+    <PackageReference Include="EnqueueIt.Redis" Version="0.3.1" />
+    <PackageReference Include="EnqueueIt.SqlServer" Version="0.3.1" />
   </ItemGroup>
 </Project>
